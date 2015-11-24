@@ -4,7 +4,8 @@ var root = require('./lib/rootpath')
 
 var fs = require('fs-sync')
 
-var tmt = fs.read(root('template.jade'))
+var filename = root('template/template.jade')
+var tmt = fs.read(filename)
 
 var schema = require('stalwart/schema/as-css')
 
@@ -12,6 +13,7 @@ var jade = require('jade')
 
 var xml = jade.render(tmt,
 {
+	filename: filename,
 	pretty: true,
 	schema: schema
 })
