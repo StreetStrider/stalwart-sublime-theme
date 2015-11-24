@@ -18,4 +18,4 @@ var xml = jade.render(tmt,
 
 fs.write(root('Stalwart.tmTheme'), xml)
 
-process.stdout.write(xml + '\n')
+0 && process.stdout.write(xml + '\n')
