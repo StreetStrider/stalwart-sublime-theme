@@ -1,0 +1,6 @@
+#! /bin/sh
+
+cd $(dirname $0)
+cd ..
+
+cp Stalwart.tmTheme ~/.config/sublime-text-3/Packages/MyThemes
