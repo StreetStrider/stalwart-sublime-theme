@@ -12,6 +12,7 @@
 	"devDependencies":
 	{
 		"stalwart": "StreetStrider/stalwart#1.1.0",
+		"chroma-js": "^1.1.1",
 
 		"fs-sync": "^1.0.1",
 		"jade": "^1.11.0"

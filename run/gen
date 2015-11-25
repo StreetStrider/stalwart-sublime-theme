@@ -7,7 +7,8 @@ var fs = require('fs-sync')
 var filename = root('template/template.jade')
 var tmt = fs.read(filename)
 
-var schema = require('stalwart/schema/as-css')
+var chroma = require('chroma-js')
+var schema = require('stalwart')
 
 var jade = require('jade')
 
@@ -15,8 +16,13 @@ var xml = jade.render(tmt,
 {
 	filename: filename,
 	pretty: true,
+
+	C: chroma,
 	schema: schema
 })
+
+
+1 && console.dir(schema)
 
 fs.write(root('Stalwart.tmTheme'), xml)
 

@@ -8,10 +8,11 @@ plist(version='1.0')
 
 		+Key('settings')
 			array: dict
-				Key('settings')
+				+Key('settings')
 					dict
-						key background
-						string #fdfcfe
+						+Key('background', schema.bg.hex())
+						+Key('foreground', C('black').hex())
 
-						key caret
-						string #cc0058
+						+Key('caret', schema.accent.hex())
+
+						+Key('lineHighlight', schema.highlight.hex())
