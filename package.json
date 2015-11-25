@@ -11,7 +11,7 @@
 
 	"devDependencies":
 	{
-		"stalwart": "StreetStrider/stalwart#1.0.1",
+		"stalwart": "StreetStrider/stalwart#1.1.0",
 
 		"fs-sync": "^1.0.1",
 		"jade": "^1.11.0"
