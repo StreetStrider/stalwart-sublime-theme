@@ -18,7 +18,8 @@ var xml = jade.render(tmt,
 	pretty: true,
 
 	C: chroma,
-	schema: schema
+	schema: schema,
+	base16: schema.base16.colors.bg
 })
 
 
