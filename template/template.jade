@@ -27,7 +27,7 @@ plist(version='1.0')
 							+Key('guide', base16.yellow.bright)
 							//-+Key('activeGuide', base16.yellow.bright)
 
-				+Style('storage')
+				+Style('comment')
 					+Debug
 
 				+Style('string.quoted')
@@ -35,6 +35,15 @@ plist(version='1.0')
 
 				+Style('comment.line.shebang')
 					+Key('background', schema.string.bg)
+
+				+Style('keyword')
+					+Bold
+
+				+Style('storage.type')
+					+Bold
+
+				+Style('meta.brace')
+					+Bold
 
 				//- Jade
 				+Style('entity.name.tag.jade')
