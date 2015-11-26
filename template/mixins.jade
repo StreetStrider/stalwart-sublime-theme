@@ -5,3 +5,11 @@ mixin Key (key, value)
 		string #{value}
 	else if block
 		block
+
+mixin Style (name, scope)
+	- if (! scope) scope = name
+	+Key('name', name)
+	+Key('scope', scope)
+	+Key('settings')
+		dict
+			block

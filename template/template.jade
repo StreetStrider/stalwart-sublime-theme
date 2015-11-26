@@ -28,9 +28,6 @@ plist(version='1.0')
 							//-+Key('activeGuide', base16.yellow.bright.hex())
 
 				dict
-					+Key('name', 'Storage')
-					+Key('scope', 'storage')
-					+Key('settings')
-						dict
-							+Key('foreground', C('red').hex())
-							+Key('fontStyle', 'bold')
+					+Style('storage')
+						+Key('foreground', C('red').hex())
+						+Key('fontStyle', 'bold')
