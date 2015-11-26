@@ -7,21 +7,30 @@ plist(version='1.0')
 		+Key('name', 'Stalwart')
 
 		+Key('settings')
-			array: dict
-				+Key('settings')
-					dict
-						+Key('background', schema.bg.hex())
-						+Key('foreground', C('black').hex())
+			array
+				dict
+					+Key('settings')
+						dict
+							+Key('background', schema.bg.hex())
+							+Key('foreground', C('black').hex())
 
-						+Key('caret', schema.accent.hex())
+							+Key('caret', schema.accent.hex())
 
-						//-+Key('gutter', C('white').hex())
-						//-+Key('gutterForeground', schema.accent.hex())
+							//-+Key('gutter', C('white').hex())
+							//-+Key('gutterForeground', schema.accent.hex())
 
-						+Key('lineHighlight', schema.highlight.hex())
+							+Key('lineHighlight', schema.highlight.hex())
 
-						+Key('selection', schema.selection.hex())
-						+Key('selectionBorder', schema.selection.darken(.5).hex())
+							+Key('selection', schema.selection.hex())
+							+Key('selectionBorder', schema.selection.darken(.5).hex())
 
-						+Key('guide', base16.yellow.bright.hex())
-						//-+Key('activeGuide', base16.yellow.bright.hex())
+							+Key('guide', base16.yellow.bright.hex())
+							//-+Key('activeGuide', base16.yellow.bright.hex())
+
+				dict
+					+Key('name', 'Storage')
+					+Key('scope', 'storage')
+					+Key('settings')
+						dict
+							+Key('foreground', C('red').hex())
+							+Key('fontStyle', 'bold')
