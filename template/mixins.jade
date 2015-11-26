@@ -8,8 +8,9 @@ mixin Key (key, value)
 
 mixin Style (name, scope)
 	- if (! scope) scope = name
-	+Key('name', name)
-	+Key('scope', scope)
-	+Key('settings')
-		dict
-			block
+	dict
+		+Key('name', name)
+		+Key('scope', scope)
+		+Key('settings')
+			dict
+				block
