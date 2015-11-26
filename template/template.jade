@@ -16,8 +16,10 @@ plist(version='1.0')
 
 							+Key('caret', schema.accent)
 
-							//-+Key('gutter', C('white'))
-							//-+Key('gutterForeground', schema.accent)
+							- //+Key('gutter', C('white'))
+							- //+Key('gutterForeground', schema.accent)
+
+							- //+Key('invisibles', C('red'))
 
 							+Key('lineHighlight', schema.highlight)
 
@@ -25,7 +27,8 @@ plist(version='1.0')
 							+Key('selectionBorder', schema.selection.darken(.5))
 
 							+Key('guide', base16.yellow.bright)
-							//-+Key('activeGuide', base16.yellow.bright)
+							- //+Key('activeGuide', base16.red.bright)
+							- //+Key('stackGuide', base16.red.bright)
 
 
 				+Style('string.quoted')
