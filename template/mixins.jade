@@ -16,5 +16,8 @@ mixin Style (name, scope)
 				block
 
 mixin Debug
-	+Key('fontStyle', 'bold')
+	+Bold
 	+Key('foreground', C('red').hex())
+
+mixin Bold
+	+Key('fontStyle', 'bold')
