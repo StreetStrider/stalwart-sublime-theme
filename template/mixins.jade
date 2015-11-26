@@ -1,5 +1,6 @@
 
 mixin Key (key, value)
+	- if (value && value.constructor.name === 'Color') value = hexa(value)
 	key #{key}
 	if value
 		string #{value}
@@ -17,7 +18,7 @@ mixin Style (name, scope)
 
 mixin Debug
 	+Bold
-	+Key('foreground', C('red').hex())
+	+Key('foreground', C('red'))
 
 mixin Bold
 	+Key('fontStyle', 'bold')

@@ -11,30 +11,30 @@ plist(version='1.0')
 				dict
 					+Key('settings')
 						dict
-							+Key('background', schema.bg.hex())
-							+Key('foreground', C('black').hex())
+							+Key('background', schema.bg)
+							+Key('foreground', C('black'))
 
-							+Key('caret', schema.accent.hex())
+							+Key('caret', schema.accent)
 
-							//-+Key('gutter', C('white').hex())
-							//-+Key('gutterForeground', schema.accent.hex())
+							//-+Key('gutter', C('white'))
+							//-+Key('gutterForeground', schema.accent)
 
-							+Key('lineHighlight', schema.highlight.hex())
+							+Key('lineHighlight', schema.highlight)
 
-							+Key('selection', schema.selection.hex())
-							+Key('selectionBorder', schema.selection.darken(.5).hex())
+							+Key('selection', schema.selection)
+							+Key('selectionBorder', schema.selection.darken(.5))
 
-							+Key('guide', base16.yellow.bright.hex())
-							//-+Key('activeGuide', base16.yellow.bright.hex())
+							+Key('guide', base16.yellow.bright)
+							//-+Key('activeGuide', base16.yellow.bright)
 
 				+Style('storage')
 					+Debug
 
 				+Style('string.quoted')
-					+Key('background', hexa(schema.string.bg.alpha(.7)))
+					+Key('background', schema.string.bg.alpha(.7))
 
 				+Style('comment.line.shebang')
-					+Key('background', schema.string.bg.hex())
+					+Key('background', schema.string.bg)
 
 				//- Jade
 				+Style('entity.name.tag.jade')
