@@ -30,6 +30,9 @@ plist(version='1.0')
 				+Style('storage')
 					+Debug
 
+				+Style('string.quoted')
+					+Key('background', hexa(schema.string.bg.alpha(.7)))
+
 				+Style('comment.line.shebang')
 					+Key('background', schema.string.bg.hex())
 

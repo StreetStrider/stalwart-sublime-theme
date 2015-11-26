@@ -8,6 +8,7 @@ var filename = root('template/template.jade')
 var tmt = fs.read(filename)
 
 var chroma = require('chroma-js')
+
 var schema = require('stalwart')
 
 var jade = require('jade')
@@ -18,6 +19,7 @@ var xml = jade.render(tmt,
 	pretty: true,
 
 	C: chroma,
+	hexa: require('./lib/hexa'),
 	schema: schema,
 	base16: schema.base16.colors.bg
 })
