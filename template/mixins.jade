@@ -1,4 +1,6 @@
 
+- accent = base16.red.normal
+
 mixin Key (key, value)
 	- if (value && value.constructor.name === 'Color') value = hexa(value)
 	key #{key}
@@ -16,11 +18,17 @@ mixin Style (name, scope)
 			dict
 				block
 
-mixin Debug
-	+Bold
-	+Key('foreground', C('red'))
 
 mixin Bold
 	+Key('fontStyle', 'bold')
 
-- accent = base16.red.normal
+mixin Fg (color)
+	+Key('foreground', color)
+
+mixin FgAccent
+	+Fg(accent)
+
+
+mixin Debug
+	+Bold
+	+Fg(C('red'))

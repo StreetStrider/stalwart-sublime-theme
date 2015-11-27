@@ -41,10 +41,10 @@ plist(version='1.0')
 					+Key('foreground', C('black'))
 
 				+Style('support.function')
-					+Key('foreground', accent)
+					+FgAccent
 
 				+Style('variable.function')
-					+Key('foreground', accent)
+					+FgAccent
 
 				+Style('meta.brace')
 					+Bold
@@ -65,7 +65,7 @@ plist(version='1.0')
 
 				- // JavaScript
 				+Style('constant.other.object.key.js')
-					+Key('foreground', accent)
+					+FgAccent
 
 				+Style('punctuation.separator.key-value.js')
 					+Bold
@@ -90,7 +90,7 @@ plist(version='1.0')
 
 				+Style('entity.other.attribute-name.class.css')
 					+Bold
-					+Key('foreground', base16.red.normal)
+					+FgAccent
 
 				+Style('entity.other.attribute-name.id.css')
 					+Bold
@@ -110,13 +110,13 @@ plist(version='1.0')
 					+Bold
 
 				+Style('constant.numeric.css')
-					+Key('foreground', base16.red.normal)
+					+FgAccent
 
 				+Style('variable.declaration.less')
-					+Key('foreground', base16.red.normal)
+					+FgAccent
 
 				+Style('variable.other.less')
-					+Key('foreground', base16.red.normal)
+					+FgAccent
 
 
 				- // SGML
@@ -130,7 +130,7 @@ plist(version='1.0')
 					+Bold
 
 				+Style('entity.other.attribute-name')
-					+Key('foreground', accent)
+					+FgAccent
 
 
 				- // Jade
@@ -145,10 +145,10 @@ plist(version='1.0')
 
 				+Style('text.jade constant.language.js')
 					+Bold
-					+Key('foreground', base16.red.normal)
+					+FgAccent
 
 				+Style('string.interpolated.jade')
-					+Key('foreground', base16.red.normal)
+					+FgAccent
 
 				+Style('text.jade constant.id.tag.jade')
 					+Bold
