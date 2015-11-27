@@ -32,10 +32,10 @@ plist(version='1.0')
 
 
 				+Style('string.quoted')
-					+Key('background', schema.string.bg.alpha(.85))
+					+Key('background', schema.string.bg.alpha(.7))
 
 				+Style('comment.line.shebang')
-					+Key('background', schema.string.bg)
+					+Key('background', schema.string.bg) // note side effects!
 
 				+Style('keyword')
 					+Bold
