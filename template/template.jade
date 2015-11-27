@@ -31,12 +31,7 @@ plist(version='1.0')
 							- //+Key('stackGuide', base16.red.bright)
 
 
-				+Style('string.quoted')
-					+Key('background', schema.string.bg.alpha(.7))
-
-				+Style('comment.line.shebang')
-					+Key('background', schema.string.bg) // note side effects!
-
+				- // Language Basics
 				+Style('keyword')
 					+Bold
 					+Key('foreground', C('black'))
@@ -51,8 +46,19 @@ plist(version='1.0')
 				+Style('meta.brace')
 					+Bold
 
+
+				- // Comment
 				+Style('comment')
 					+Key('background', schema.comment.bg)
+
+				+Style('comment.line.shebang')
+					+Key('background', schema.string.bg) // note side effects!
+
+
+				- // String
+				+Style('string.quoted')
+					+Key('background', schema.string.bg.alpha(.7))
+
 
 				//- Jade
 				+Style('entity.name.tag.jade')
