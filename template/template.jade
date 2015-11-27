@@ -119,7 +119,21 @@ plist(version='1.0')
 					+Key('foreground', base16.red.normal)
 
 
-				//- Jade
+				- // SGML
+				+Style('entity.name.tag')
+					+Bold
+
+				+Style('punctuation.definition.tag')
+					+Bold
+
+				+Style('meta.tag.sgml')
+					+Bold
+
+				+Style('entity.other.attribute-name')
+					+Key('foreground', accent)
+
+
+				- // Jade
 				+Style('entity.name.tag.jade')
 					+Bold
 
