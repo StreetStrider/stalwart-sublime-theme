@@ -25,7 +25,7 @@ var xml = jade.render(tmt,
 })
 
 
-1 && console.dir(schema)
+0 && console.dir(schema)
 
 fs.write(rootpath('Stalwart.tmTheme'), xml)
 
