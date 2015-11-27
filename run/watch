@@ -1,10 +1,10 @@
 #! /usr/bin/env node
 
-var root = require('./lib/rootpath')
+var rootpath = require('./lib/rootpath')
 
 var watch = require('glob-watcher')
 
-var paths = [ 'template/*' ].map(path => root(path))
+var paths = [ 'template/*' ].map(path => rootpath(path))
 
 var cmd = require('command-promise').so
 
@@ -16,7 +16,7 @@ console.info('watch is up')
 
 function gen ()
 {
-	cmd('run/gen', { cwd: root() })()
-	.then(cmd('run/install', { cwd: root() }))
+	cmd('run/gen', { cwd: rootpath() })()
+	.then(cmd('run/install', { cwd: rootpath() }))
 	.then(() => console.info('generated'))
 }

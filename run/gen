@@ -1,10 +1,10 @@
 #! /usr/bin/env node
 
-var root = require('./lib/rootpath')
+var rootpath = require('./lib/rootpath')
 
 var fs = require('fs-sync')
 
-var filename = root('template/template.jade')
+var filename = rootpath('template/template.jade')
 var tmt = fs.read(filename)
 
 var chroma = require('chroma-js')
@@ -27,6 +27,6 @@ var xml = jade.render(tmt,
 
 1 && console.dir(schema)
 
-fs.write(root('Stalwart.tmTheme'), xml)
+fs.write(rootpath('Stalwart.tmTheme'), xml)
 
 0 && process.stdout.write(xml + '\n')
