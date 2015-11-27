@@ -16,7 +16,7 @@ var jade = require('jade')
 var xml = jade.render(tmt,
 {
 	filename: filename,
-	pretty: true,
+	pretty: '\t',
 
 	C: chroma,
 	hexa: require('./lib/hexa'),
