@@ -68,6 +68,10 @@ plist(version='1.0')
 				+Style('string.quoted')
 					+Key('background', schema.string.bg)
 
+				+Style('punctuation.definition.string')
+					+Bold
+					+Key('background', schema.string.bg.darken(.5))
+
 
 				- // JavaScript
 				+Style('constant.other.object.key.js')
