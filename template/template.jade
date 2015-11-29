@@ -172,3 +172,24 @@ plist(version='1.0')
 
 				+Style('text.jade string.comment')
 					+Key('background', schema.comment.bg)
+
+
+				- // Markdown
+				+Style('markup.heading')
+					+Bold
+
+				+Style('markup.bold')
+					+Bold
+
+				+Style('markup.italic')
+					+Fg(C('dimgray'))
+
+				+Style('meta.link.inline')
+					+Key('background', schema.comment.bg)
+				+Style('text.html.markdown punctuation.definition.string')
+					+Key('background', schema.comment.bg) //- poor
+				+Style('meta.link.inline markup.underline.link')
+					+Fg(base16.blue.normal)
+
+				+Style('markup.quote')
+					+Key('background', schema.comment.bg)
