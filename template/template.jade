@@ -74,11 +74,12 @@ plist(version='1.0')
 
 				- // String
 				+Style('string.quoted')
+					+Fg(schema.string.fg)
 					+Key('background', schema.string.bg)
 
 				+Style('punctuation.definition.string')
 					+Bold
-					+Key('background', schema.string.bg.darken(.5))
+					+Key('background', schema.string.bg__around)
 
 
 				- // JavaScript
