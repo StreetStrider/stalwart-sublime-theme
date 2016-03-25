@@ -216,3 +216,13 @@ plist(version='1.0')
 
 				+Style('source.shell meta.function')
 					+Bold
+
+
+				- // BracketHighlighter
+				+Style('bracket-highlighter')
+					+FgAccent
+					- // +Fg(C('white'))
+					- // +Fg(C(hexa(schema.accent)).alpha(0.5))
+
+					+Key('background', schema.accent)
+					- // +Key('background', C('white'))

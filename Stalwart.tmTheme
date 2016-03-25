@@ -150,7 +150,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#ffe37d80</string>
+					<string>#f445644d</string>
 				</dict>
 			</dict>
 			<dict>
@@ -163,7 +163,7 @@
 					<key>foreground</key>
 					<string>#000000</string>
 					<key>background</key>
-					<string>#ffe37d80</string>
+					<string>#f445644d</string>
 				</dict>
 			</dict>
 			<dict>
@@ -176,7 +176,7 @@
 					<key>fontStyle</key>
 					<string>bold</string>
 					<key>background</key>
-					<string>#fff58e80</string>
+					<string>#ff7b914d</string>
 				</dict>
 			</dict>
 			<dict>
@@ -620,6 +620,19 @@
 				<dict>
 					<key>fontStyle</key>
 					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>bracket-highlighter</string>
+				<key>scope</key>
+				<string>bracket-highlighter</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#b00043</string>
+					<key>background</key>
+					<string>#cc0058</string>
 				</dict>
 			</dict>
 		</array>
