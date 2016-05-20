@@ -231,6 +231,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>variable.language.this.js</string>
+				<key>scope</key>
+				<string>variable.language.this.js</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>punctuation.definition.parameters.begin.js</string>
 				<key>scope</key>
 				<string>punctuation.definition.parameters.begin.js</string>
