@@ -275,6 +275,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>storage.type.function.arrow.js</string>
+				<key>scope</key>
+				<string>storage.type.function.arrow.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#b00043</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>punctuation.definition.dictionary</string>
 				<key>scope</key>
 				<string>punctuation.definition.dictionary</string>
