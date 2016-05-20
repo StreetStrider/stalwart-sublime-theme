@@ -81,6 +81,14 @@ plist(version='1.0')
 					+Bold
 					+Key('background', schema.string.bg__around)
 
+				+Style('string.interpolated')
+					+Fg(schema.string.fg)
+					+Key('background', schema.string.bg)
+
+				+Style('string.interpolated keyword.other.template')
+					+Bold
+					+Key('background', schema.string.bg__around)
+
 
 				- // JavaScript
 				+Style('constant.other.object.key.js')
