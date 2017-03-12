@@ -308,6 +308,19 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>support.type.type.flowtype.js</string>
+				<key>scope</key>
+				<string>support.type.type.flowtype.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000000</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>punctuation.definition.dictionary</string>
 				<key>scope</key>
 				<string>punctuation.definition.dictionary</string>
