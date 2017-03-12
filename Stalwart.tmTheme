@@ -133,6 +133,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>punctuation.section</string>
+				<key>scope</key>
+				<string>punctuation.section</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>comment</string>
 				<key>scope</key>
 				<string>comment</string>
