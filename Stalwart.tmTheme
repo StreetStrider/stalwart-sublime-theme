@@ -343,6 +343,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>constant.language.json</string>
+				<key>scope</key>
+				<string>constant.language.json</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>entity.name.tag.css</string>
 				<key>scope</key>
 				<string>entity.name.tag.css</string>
