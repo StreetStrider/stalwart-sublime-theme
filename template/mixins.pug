@@ -3,9 +3,9 @@
 
 mixin Key (key, value)
 	- if (value && value.constructor.name === 'Color') value = hexa(value)
-	key #{key}
+	key #{ key }
 	if value
-		string #{value}
+		string #{ value }
 	else if block
 		block
 

@@ -4,16 +4,16 @@ var rootpath = require('./lib/rootpath')
 
 var fs = require('fs-sync')
 
-var filename = rootpath('template/template.jade')
+var filename = rootpath('template/template.pug')
 var tmt = fs.read(filename)
 
 var chroma = require('chroma-js')
 
 var schema = require('stalwart')
 
-var jade = require('jade')
+var pug = require('pug')
 
-var xml = jade.render(tmt,
+var xml = pug.render(tmt,
 {
 	filename: filename,
 	pretty: '\t',
