@@ -161,7 +161,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#f445644d</string>
+					<string>#f445634d</string>
 				</dict>
 			</dict>
 			<dict>
@@ -174,7 +174,7 @@
 					<key>foreground</key>
 					<string>#000000</string>
 					<key>background</key>
-					<string>#f445644d</string>
+					<string>#f445634d</string>
 				</dict>
 			</dict>
 			<dict>
@@ -200,7 +200,7 @@
 					<key>foreground</key>
 					<string>#000000</string>
 					<key>background</key>
-					<string>#f445644d</string>
+					<string>#f445634d</string>
 				</dict>
 			</dict>
 			<dict>
