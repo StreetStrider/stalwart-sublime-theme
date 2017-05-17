@@ -19,7 +19,7 @@ var xml = jade.render(tmt,
 	pretty: '\t',
 
 	C: chroma,
-	hexa: require('./lib/hexa'),
+	hexa: require('stalwart/run/lib/to-hexa'),
 	schema: schema,
 	base16: schema.base16.colors.bg
 })
