@@ -1,2 +1,2 @@
 
-module.exports = require('rootpath')(__dirname, '..', '..')
+module.exports = require('@streetstrider/rootpath')(__dirname, '..', '..')
