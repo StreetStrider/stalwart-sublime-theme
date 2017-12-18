@@ -286,6 +286,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>meta.function-call.static.without-arguments.js meta.group.braces.round.function.arguments.js</string>
+				<key>scope</key>
+				<string>meta.function-call.static.without-arguments.js meta.group.braces.round.function.arguments.js</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>meta.function-call.without-arguments.js meta.group.braces.round.function.arguments.js</string>
 				<key>scope</key>
 				<string>meta.function-call.without-arguments.js meta.group.braces.round.function.arguments.js</string>
