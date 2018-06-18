@@ -116,7 +116,6 @@ plist(version='1.0')
 					+Bold
 
 				+Style('storage.type.function.arrow.js')
-					//- +Fg(base16.blue.normal)
 					+FgAccent
 
 				- // Flow
@@ -144,11 +143,15 @@ plist(version='1.0')
 
 				+Style('entity.other.attribute-name.id.css')
 					+Bold
-					+Fg(base16.blue.normal)
+					+Fg(base16.blue.normal.darken(1))
 
 				+Style('entity.other.attribute-name.pseudo-class.css')
 					+Bold
-					+Fg(base16.blue.normal)
+					+Fg(base16.blue.normal.darken(1))
+
+				+Style('variable.other.pseudo-class.css')
+					+Bold
+					+Fg(base16.blue.normal.darken(1))
 
 				+Style('support.type.property-name.css')
 					+Bold
@@ -160,10 +163,19 @@ plist(version='1.0')
 				+Style('punctuation.terminator.rule.css')
 					+Bold
 
+				+Style('punctuation.terminator.css')
+					+Bold
+
+				+Style('source.css punctuation.separator.combinator')
+					+Bold
+
 				- //+Style('punctuation.section.property-list.css')
 				- //	+Bold
 
-				+Style('constant.numeric.css')
+				+Style('source.css constant.numeric')
+					+FgAccent
+
+				+Style('source.css constant.other')
 					+FgAccent
 
 				+Style('variable.declaration.less')

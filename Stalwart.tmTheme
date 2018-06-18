@@ -397,7 +397,7 @@
 					<key>fontStyle</key>
 					<string>bold</string>
 					<key>foreground</key>
-					<string>#0069dd</string>
+					<string>#0040aa</string>
 				</dict>
 			</dict>
 			<dict>
@@ -410,7 +410,20 @@
 					<key>fontStyle</key>
 					<string>bold</string>
 					<key>foreground</key>
-					<string>#0069dd</string>
+					<string>#0040aa</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>variable.other.pseudo-class.css</string>
+				<key>scope</key>
+				<string>variable.other.pseudo-class.css</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>foreground</key>
+					<string>#0040aa</string>
 				</dict>
 			</dict>
 			<dict>
@@ -450,9 +463,42 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>constant.numeric.css</string>
+				<string>punctuation.terminator.css</string>
 				<key>scope</key>
-				<string>constant.numeric.css</string>
+				<string>punctuation.terminator.css</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.css punctuation.separator.combinator</string>
+				<key>scope</key>
+				<string>source.css punctuation.separator.combinator</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.css constant.numeric</string>
+				<key>scope</key>
+				<string>source.css constant.numeric</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#b00043</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.css constant.other</string>
+				<key>scope</key>
+				<string>source.css constant.other</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
