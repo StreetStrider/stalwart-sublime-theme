@@ -144,6 +144,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>punctuation.definition</string>
+				<key>scope</key>
+				<string>punctuation.definition</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>comment</string>
 				<key>scope</key>
 				<string>comment</string>
@@ -332,28 +343,6 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>punctuation.definition.dictionary</string>
-				<key>scope</key>
-				<string>punctuation.definition.dictionary</string>
-				<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>punctuation.definition.array</string>
-				<key>scope</key>
-				<string>punctuation.definition.array</string>
-				<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
 				<string>constant.language.json</string>
 				<key>scope</key>
 				<string>constant.language.json</string>
@@ -532,17 +521,6 @@
 				<string>entity.name.tag</string>
 				<key>scope</key>
 				<string>entity.name.tag</string>
-				<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>punctuation.definition.tag</string>
-				<key>scope</key>
-				<string>punctuation.definition.tag</string>
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
@@ -738,17 +716,6 @@
 				<dict>
 					<key>background</key>
 					<string>#e3e3e380</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>source.shell punctuation.definition.group.shell</string>
-				<key>scope</key>
-				<string>source.shell punctuation.definition.group.shell</string>
-				<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
 				</dict>
 			</dict>
 			<dict>

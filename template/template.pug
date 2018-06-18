@@ -66,6 +66,9 @@ plist(version='1.0')
 				+Style('punctuation.section')
 					+Bold
 
+				+Style('punctuation.definition')
+					+Bold
+
 				- // Comment
 				+Style('comment')
 					+Key('background', schema.comment.bg)
@@ -124,10 +127,10 @@ plist(version='1.0')
 					+Bold
 
 				- // JSON
-				+Style('punctuation.definition.dictionary')
+				//- +Style('punctuation.definition.dictionary')
 					+Bold
 
-				+Style('punctuation.definition.array')
+				//- +Style('punctuation.definition.array')
 					+Bold
 
 				+Style('constant.language.json')
@@ -189,7 +192,7 @@ plist(version='1.0')
 				+Style('entity.name.tag')
 					+Bold
 
-				+Style('punctuation.definition.tag')
+				//- +Style('punctuation.definition.tag')
 					+Bold
 
 				+Style('meta.tag.sgml')
@@ -249,7 +252,7 @@ plist(version='1.0')
 
 
 				- // Shell
-				+Style('source.shell punctuation.definition.group.shell')
+				//- +Style('source.shell punctuation.definition.group.shell')
 					+Bold
 
 				+Style('source.shell meta.function')
