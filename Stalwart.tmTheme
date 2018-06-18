@@ -339,6 +339,30 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>string.regexp.js</string>
+				<key>scope</key>
+				<string>string.regexp.js</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#6e4bce33</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>string.regexp punctuation.definition.string</string>
+				<key>scope</key>
+				<string>string.regexp punctuation.definition.string</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>background</key>
+					<string>#6e4bce4d</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>support.type.type.flowtype.js</string>
 				<key>scope</key>
 				<string>support.type.type.flowtype.js</string>

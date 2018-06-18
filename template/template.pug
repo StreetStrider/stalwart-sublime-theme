@@ -124,6 +124,12 @@ plist(version='1.0')
 				+Style('storage.type.function.arrow.js')
 					+FgAccent
 
+				+Style('string.regexp.js')
+					+Key('background', base16.magenta.normal.alpha(.2))
+				+Style('string.regexp punctuation.definition.string')
+					+Bold
+					+Key('background', base16.magenta.normal.alpha(.3))
+
 				- // Flow
 				+Style('support.type.type.flowtype.js')
 					+Fg(schema.string.fg)
