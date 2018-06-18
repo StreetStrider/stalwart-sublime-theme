@@ -374,6 +374,28 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>variable.other.type.flow</string>
+				<key>scope</key>
+				<string>variable.other.type.flow</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#0040aa</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>meta.declaration.type.flow variable.other.type.flow</string>
+				<key>scope</key>
+				<string>meta.declaration.type.flow variable.other.type.flow</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>black</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>comment.block.flow</string>
 				<key>scope</key>
 				<string>comment.block.flow</string>

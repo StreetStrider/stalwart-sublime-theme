@@ -135,6 +135,13 @@ plist(version='1.0')
 				+Style('variable.parameter.generic.flow')
 					+FgSecondary
 
+				+Style('variable.other.type.flow')
+					+FgSecondary
+
+				//- but:
+				+Style('meta.declaration.type.flow variable.other.type.flow')
+					+Fg('black')
+
 				+Style('comment.block.flow')
 					+Key('background', secondary.alpha(.1))
 
