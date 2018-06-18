@@ -13,6 +13,8 @@ var schema = require('stalwart')
 
 var pug = require('pug')
 
+var base16 = schema.base16.colors.bg
+
 var xml = pug.render(tmt,
 {
 	filename: filename,
@@ -21,7 +23,8 @@ var xml = pug.render(tmt,
 	C: chroma,
 	hexa: require('stalwart/run/lib/to-hexa'),
 	schema: schema,
-	base16: schema.base16.colors.bg
+	base16: base16,
+	secondary: base16.blue.normal.darken(1),
 })
 
 
