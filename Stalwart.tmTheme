@@ -819,6 +819,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>source.lark entity.name</string>
+				<key>scope</key>
+				<string>source.lark entity.name</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>bracket-highlighter</string>
 				<key>scope</key>
 				<string>bracket-highlighter</string>
