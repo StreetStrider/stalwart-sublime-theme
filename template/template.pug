@@ -85,15 +85,23 @@ plist(version='1.0')
 					+Fg(schema.string.fg)
 					+Key('background', schema.string.bg)
 
-				+Style('punctuation.definition.string')
-					+Bold
-					+Key('background', schema.string.bg__around)
-
 				+Style('string.interpolated')
 					+Fg(schema.string.fg)
 					+Key('background', schema.string.bg)
 
+				+Style('string.template')
+					+Fg(schema.string.fg)
+					+Key('background', schema.string.bg)
+
+				+Style('punctuation.definition.string')
+					+Bold
+					+Key('background', schema.string.bg__around)
+
 				+Style('string.interpolated keyword.other.template')
+					+Bold
+					+Key('background', schema.string.bg__around)
+
+				+Style('meta.template-expression')
 					+Bold
 					+Key('background', schema.string.bg__around)
 

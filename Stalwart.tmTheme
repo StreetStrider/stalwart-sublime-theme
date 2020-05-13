@@ -199,19 +199,6 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>punctuation.definition.string</string>
-				<key>scope</key>
-				<string>punctuation.definition.string</string>
-				<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
-					<key>background</key>
-					<string>#ff7b914d</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
 				<string>string.interpolated</string>
 				<key>scope</key>
 				<string>string.interpolated</string>
@@ -225,9 +212,48 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>string.template</string>
+				<key>scope</key>
+				<string>string.template</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000000</string>
+					<key>background</key>
+					<string>#f445634d</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>punctuation.definition.string</string>
+				<key>scope</key>
+				<string>punctuation.definition.string</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>background</key>
+					<string>#ff7b914d</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>string.interpolated keyword.other.template</string>
 				<key>scope</key>
 				<string>string.interpolated keyword.other.template</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>background</key>
+					<string>#ff7b914d</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>meta.template-expression</string>
+				<key>scope</key>
+				<string>meta.template-expression</string>
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
