@@ -162,6 +162,7 @@
 					<string>bold</string>
 				</dict>
 			</dict>
+			<!--	+Key('background', 'Orange')-->
 			<dict>
 				<key>name</key>
 				<string>comment</string>
