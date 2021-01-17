@@ -390,6 +390,30 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>meta.type.parameters</string>
+				<key>scope</key>
+				<string>meta.type.parameters</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#000000</string>
+					<key>background</key>
+					<string>#0040aa1a</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>meta.type.parameters entity.name.type</string>
+				<key>scope</key>
+				<string>meta.type.parameters entity.name.type</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#0040aa</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>support.type.type.flowtype.js</string>
 				<key>scope</key>
 				<string>support.type.type.flowtype.js</string>
