@@ -142,6 +142,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>variable.language.this</string>
+				<key>scope</key>
+				<string>variable.language.this</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>punctuation.section</string>
 				<key>scope</key>
 				<string>punctuation.section</string>
@@ -285,17 +296,6 @@
 					<string>bold</string>
 					<key>foreground</key>
 					<string>#000000</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>variable.language.this.js</string>
-				<key>scope</key>
-				<string>variable.language.this.js</string>
-				<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
 				</dict>
 			</dict>
 			<dict>
