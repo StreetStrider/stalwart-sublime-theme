@@ -58,6 +58,9 @@ plist(version='1.0')
 				+Style('support.class')
 					+FgSecondary
 
+				+Style('support.macro')
+					+FgSecondary
+
 				+Style('constant.language.boolean')
 					+Bold
 					+FgAccent
@@ -81,6 +84,10 @@ plist(version='1.0')
 
 				- // Comment
 				+Style('comment')
+					+Key('background', schema.comment.bg)
+
+				+Style('meta.annotation')
+					+FgSecondary
 					+Key('background', schema.comment.bg)
 
 				+Style('comment.line.shebang')
