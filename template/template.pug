@@ -52,10 +52,10 @@ plist(version='1.0')
 				+Style('meta.brace')
 					+Bold
 
-				+Style('support.type')
+				+Style('meta.type support')
 					+FgSecondary
 
-				+Style('support.class')
+				+Style('meta.generic variable')
 					+FgSecondary
 
 				+Style('support.macro')
@@ -254,6 +254,11 @@ plist(version='1.0')
 					+FgAccent
 
 
+				- // YAML
+				+Style('meta.mapping.key.yaml')
+					+Bold
+
+
 				- // Jade
 				+Style('entity.name.tag.jade')
 					+Bold
@@ -322,3 +327,7 @@ plist(version='1.0')
 
 					+Key('background', schema.accent)
 					- // +Key('background', C('white'))
+
+				- // Word Highlight
+				+Style('word-highlight')
+					+Key('background', schema.accent)

@@ -94,9 +94,9 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>support.type</string>
+				<string>meta.type support</string>
 				<key>scope</key>
-				<string>support.type</string>
+				<string>meta.type support</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -105,9 +105,9 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>support.class</string>
+				<string>meta.generic variable</string>
 				<key>scope</key>
-				<string>support.class</string>
+				<string>meta.generic variable</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -714,6 +714,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>meta.mapping.key.yaml</string>
+				<key>scope</key>
+				<string>meta.mapping.key.yaml</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>entity.name.tag.jade</string>
 				<key>scope</key>
 				<string>entity.name.tag.jade</string>
@@ -912,6 +923,17 @@
 				<dict>
 					<key>foreground</key>
 					<string>#b00043</string>
+					<key>background</key>
+					<string>#cc0058</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>word-highlight</string>
+				<key>scope</key>
+				<string>word-highlight</string>
+				<key>settings</key>
+				<dict>
 					<key>background</key>
 					<string>#cc0058</string>
 				</dict>
