@@ -414,6 +414,45 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>constant.language.undefined.js</string>
+				<key>scope</key>
+				<string>constant.language.undefined.js</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>italic</string>
+					<key>foreground</key>
+					<string>#b00043</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>constant.language.nan.js</string>
+				<key>scope</key>
+				<string>constant.language.nan.js</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>italic</string>
+					<key>foreground</key>
+					<string>#b00043</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>constant.language.infinity.js</string>
+				<key>scope</key>
+				<string>constant.language.infinity.js</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>italic</string>
+					<key>foreground</key>
+					<string>#b00043</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>meta.type.parameters</string>
 				<key>scope</key>
 				<string>meta.type.parameters</string>
