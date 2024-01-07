@@ -24,7 +24,8 @@ var xml = pug.render(tmt,
 	hexa: require('stalwart/run/lib/to-hexa'),
 	schema: schema,
 	base16: base16,
-	secondary: base16.blue.normal.darken(1),
+	secondary: base16.blue.normal.darken(1), // TODO: mv to `stalwart`
+	comment__bg__around: schema.comment.bg.darken(.4), // TODO: mv to `stalwart`
 })
 
 

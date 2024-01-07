@@ -198,6 +198,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>punctuation.definition.comment</string>
+				<key>scope</key>
+				<string>punctuation.definition.comment</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#cfcfcf80</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>meta.annotation</string>
 				<key>scope</key>
 				<string>meta.annotation</string>
@@ -214,6 +225,17 @@
 				<string>comment.line.shebang</string>
 				<key>scope</key>
 				<string>comment.line.shebang</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#ff7b914d</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>comment.line.shebang punctuation.definition.comment</string>
+				<key>scope</key>
+				<string>comment.line.shebang punctuation.definition.comment</string>
 				<key>settings</key>
 				<dict>
 					<key>background</key>

@@ -86,11 +86,16 @@ plist(version='1.0')
 				+Style('comment')
 					+Key('background', schema.comment.bg)
 
+				+Style('punctuation.definition.comment')
+					+Key('background', comment__bg__around)
+
 				+Style('meta.annotation')
 					+FgSecondary
 					+Key('background', schema.comment.bg)
 
 				+Style('comment.line.shebang')
+					+Key('background', schema.string.bg__around)
+				+Style('comment.line.shebang punctuation.definition.comment')
 					+Key('background', schema.string.bg)
 
 
